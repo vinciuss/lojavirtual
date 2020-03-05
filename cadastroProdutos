@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastrando Produtos</title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<fieldset>
+			<legend>INFORMAÇÕES PRINCIPAIS</legend>
+			Produto ativado?
+			<select>
+				<option value="sim">Sim</option>
+				<option value="nao">Não</option>
+			</select>
+			Nome do produto
+			<input type="text" placheholder="Informe o nome do produto"/>
+		</fieldset>
+	</body>
+</html>
