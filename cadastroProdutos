@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cadastrando Produtos</title>
-		<meta charset="UTF-8"/>
+      <title>Cadastrando Produtos</title>
+      <meta charset="UTF-8"/>
 	</head>
 	<body>
-		<fieldset>
-			<legend>INFORMAÇÕES PRINCIPAIS</legend>
-			Produto ativado?
-			<select>
-				<option value="sim">Sim</option>
-				<option value="nao">Não</option>
-			</select>
-			Nome do produto
-			<input type="text" placheholder="Informe o nome do produto"/>
+      <form autocomplete="on">
+        <fieldset>
+          <legend><strong>INFORMAÇÕES PRINCIPAIS</strong></legend>
+          Produto ativado?
+          <select>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+          </select>
+          <input type="radio" name="prodnovo" checked="checked"/>Produto Novo
+          <input type="radio" name="prodnovo" checked="checked"/>Produto Usado
+          <br/>
+          <br/>
+          <label for="nomeProduto">Nome do Produto</label>
+          <input type="text" placeholder="Digite aqui" maxlength="50" id="nomeProduto"/>
+          <br/>
+          <br/>
+          Código do produto 
+          <input type="text" placeholder="Digite aqui" maxlength="10"/>
+          NCM
+          <input type="number" placeholder="Digite aqui" maxlength="10"/>
+          <br/>
+          <br/>
+          Preço de custo <input type="number"/>
+          Preço de venda <input type="number"/>
 		</fieldset>
+      </form>
 	</body>
 </html>
