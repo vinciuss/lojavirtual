@@ -21,5 +21,7 @@ main {
 }
 
 footer{
- 
+ div {
+  text-align: center;
+ }
 }
