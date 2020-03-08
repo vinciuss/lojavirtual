@@ -4,6 +4,7 @@ header {
 }
 
 nav {
- font-size: 2;
  background-color: red;
+ font-size: 2;
+ text-align: center;
 }
