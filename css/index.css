@@ -10,7 +10,11 @@ header {
  text-align: center;
 }
 
-nav {
+a:link {
+	text-decoration: none
+}
+
+nav { 
  color: #FFFFFF;
  background-color: #FF6347;
  font-size: 22px;
