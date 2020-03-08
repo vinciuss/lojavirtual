@@ -11,7 +11,8 @@ header {
 }
 
 a:link {
-	text-decoration: none
+ color: #FFFFFF;
+ text-decoration: none
 }
 
 nav { 
