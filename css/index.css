@@ -12,7 +12,7 @@ header {
 
 nav {
  background-color: #FF6347;
- font-size: 50;
+ font-size: 50px;
  opacity: 0.9;
  text-align: center;
 }
@@ -27,12 +27,12 @@ section {
 }
 
 footer{
- font-size: 6;
+ font-size: 6px;
 }
 
 div {
  color: #FFFFFF; 
  background-color: blue;
  text-align: center;
- font-size: 1;
+ font-size: 1px;
 }
