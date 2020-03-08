@@ -11,9 +11,10 @@ header {
 }
 
 nav {
+ color: #FFFFFF;
  background-color: #FF6347;
  font-size: 22px;
- opacity: 0.9;
+ opacity: 1;
  text-align: center;
 }
 
