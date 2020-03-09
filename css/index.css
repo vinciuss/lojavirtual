@@ -42,3 +42,19 @@ div {
  text-align: center;
  font-size: 14px;
 }
+<!--Essa e a parte da foto-->
+nav img{
+	height: 30px;
+	width: 35px;
+	float: right;
+
+}
+
+/*Essa parte eu consigo mecher no link "Carrinho de compras", porem nao consigo deixar proximo da foto do carrinho*/
+.Carr{
+	font-size: 15px;
+	text-align: center;
+	display: inline;
+	text-align: center;
+	list-style-type: none;	
+}
